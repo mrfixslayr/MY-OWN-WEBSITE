@@ -1,0 +1,138 @@
+#page-1 {
+  background-image: url(background-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width:990px) {
+  #page-1 {
+    text-align: center;
+    background-image: url(background-1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* navbar */
+.container-fluid {
+  margin: 40px 200px;
+
+
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-item {
+  padding-right: 40px;
+  font-size: 1.2rem;
+  font-family: "Montserrat",sans-serif;
+}
+
+/* title */
+.title-1 {
+  padding-top: 95px;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  color: white;
+  margin-bottom: 150px
+}
+
+@media (max-width:990px) {
+  .title-1 {
+    margin-bottom: 75px
+  }
+}
+
+@media (max-width:990px) {
+  .title-2 {
+    margin-bottom: 75px
+  }
+}
+
+.h1-1 {
+  font-size: 5rem;
+
+  font-style: oblique;
+}
+
+.p-1 {
+  padding-top: 10px;
+  font-size: 3rem;
+    font-style: oblique;
+}
+
+.profile-pic{
+  margin-top: 90px;
+  margin-left: 100px
+}
+
+/* about-me */
+#about-me {
+    padding: 75px 50px;
+}
+
+@media (max-width:990px) {
+  .images{
+    text-align: center;
+    padding-bottom: 40px;
+  }
+}
+
+.h1-2 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Montserrat";
+  color: #FF5F00;
+}
+
+.p-2 {
+  font-size: 1.5rem;
+  font-family: "robonto condensed", sans-serif;
+  color: #43919B
+}
+
+/* portfolio */
+
+#portfolio{
+  background-color:#A1E3D8;
+  padding: 75px 50px;
+}
+
+.h1-3{
+  color: #069A8E;
+  text-align:center;
+  font-size: 2rem;
+  font-family: "Montserrat";
+}
+
+.p-3{
+  color: #005555;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* contact-me */
+
+#contact-me{
+  padding: 25px 100px ;
+  text-align: center;
+}
+
+.h1-4{
+  font-family: "Montserrat",sans-serif;
+  color: #42C2FF;
+  padding: 30px 100px
+}
+
+.p-4{
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.icons{
+  padding: 20px 30px;
+font-size: 30px
+}
